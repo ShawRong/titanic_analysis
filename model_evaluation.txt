@@ -1,0 +1,17 @@
+node num: 9
+epochs: 1000
+batch_size: 32
+accs: 0.7167
+recall: 0.7167
+F1 score: 0.6918
+precision: 0.7040
+
+report:
+              precision    recall  f1-score   support
+
+         0.0       0.73      0.90      0.81       233
+         1.0       0.65      0.37      0.47       120
+
+    accuracy                           0.72       353
+   macro avg       0.69      0.63      0.64       353
+weighted avg       0.70      0.72      0.69       353
