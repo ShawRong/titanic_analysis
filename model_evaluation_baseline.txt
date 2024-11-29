@@ -16,6 +16,7 @@ report:
    macro avg       0.71      0.66      0.66       393
 weighted avg       0.70      0.69      0.68       393
 
+**************************************
 node num: 9
 epochs: 2000
 batch_size: 32
@@ -33,3 +34,60 @@ report:
     accuracy                           0.69       393
    macro avg       0.71      0.66      0.66       393
 weighted avg       0.70      0.69      0.67       393
+
+**************************
+node num: 9
+epochs: 3000
+batch_size: 32
+accs: 0.6870
+recall: 0.6870
+F1 score: 0.6687
+precision: 0.6959
+
+report:
+              precision    recall  f1-score   support
+
+         0.0       0.67      0.88      0.76       224
+         1.0       0.73      0.44      0.55       169
+
+    accuracy                           0.69       393
+   macro avg       0.70      0.66      0.65       393
+weighted avg       0.70      0.69      0.67       393
+
+**************************
+node num: 14
+epochs: 3000
+batch_size: 32
+accs: 0.6921
+recall: 0.6921
+F1 score: 0.6750
+precision: 0.7008
+
+report:
+              precision    recall  f1-score   support
+
+         0.0       0.68      0.88      0.76       224
+         1.0       0.73      0.45      0.56       169
+
+    accuracy                           0.69       393
+   macro avg       0.70      0.66      0.66       393
+weighted avg       0.70      0.69      0.67       393
+
+**************************
+node num: 14
+epochs: 10000
+batch_size: 32
+accs: 0.6972
+recall: 0.6972
+F1 score: 0.6795
+precision: 0.7082
+
+report:
+              precision    recall  f1-score   support
+
+         0.0       0.68      0.88      0.77       224
+         1.0       0.75      0.45      0.56       169
+
+    accuracy                           0.70       393
+   macro avg       0.71      0.67      0.66       393
+weighted avg       0.71      0.70      0.68       393
